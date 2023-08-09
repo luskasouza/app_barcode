@@ -1,0 +1,34 @@
+name: Flutter CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'latest' # Use the latest version of Flutter
+
+      - name: Set up Dart SDK
+        run: echo "environment:\n  sdk: '>=3.0.3 <4.0.0'" > pubspec.yaml # Set the Dart SDK version constraint
+
+      - name: Install Flutter dependencies
+        run: flutter pub get
+
+      - name: Analyze project source
+        run: flutter analyze
+
+      - name: Run tests
+        run: flutter test
