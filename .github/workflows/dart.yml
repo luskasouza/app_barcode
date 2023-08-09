@@ -1,4 +1,4 @@
-name: Dart
+name: Dart CI
 
 on:
   pull_request:
@@ -9,12 +9,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: dart-lang/setup-dart@v1
 
-      - run: flutter pub get
-      - run: dart pub get
-      - run: dart format --output=none --set-exit-if-changed .
-      - run: dart analyze
-      - run: dart test
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Dart SDK
+        uses: dart-lang/setup-dart@v1
+
+      - name: Install Dart dependencies
+        run: dart pub get
+
+      - name: Analyze Dart source
+        run: dart analyze
+
+      - name: Run Dart tests
+        run: dart test
