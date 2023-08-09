@@ -12,16 +12,15 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
     <div>
      Execute o seguinte comando para obter as dependências:
      1. **Primeiro passo:** 
-   
-   ```bash
-   flutter pub get && dart pub get
-       ```
-       2. **Segundo passo:** 
-        ```bash
+      ```
+        flutter pub get && dart pub get
+      ```
+     2. **Segundo passo:** 
+      ```
         flutter run
-       ```
-
+      ```
     </div>
+    </td>
    <td>
      <div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;"> 
     <div style="text-align: right;">
