@@ -3,13 +3,6 @@
 A new Flutter project.
 
 ## Getting Started
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-</head>
-<body>
-
 <div class="container">
     <div class="row align-items-center">
         <div class="col-md-8">
@@ -21,7 +14,6 @@ A new Flutter project.
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
