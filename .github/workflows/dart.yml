@@ -1,4 +1,4 @@
-name: Dart
+name: Flutter
 
 on:
   push:
@@ -13,15 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: dart-lang/setup-dart@v1
+      - uses: subosito/flutter-action@v2
         with:
-          dart-version: '>=3.0.3 <4.0.0' # Use the desired Dart SDK version
+          flutter-version: '2.x.x' # Specify the desired Flutter version
 
-      - name: Install dependencies
-        run: dart pub get
+      - name: Install Flutter dependencies
+        run: flutter pub get
 
       - name: Analyze project source
-        run: dart analyze
+        run: flutter analyze
 
       - name: Run tests
-        run: dart test
+        run: flutter test
