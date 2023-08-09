@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SizedBox(
-              width: 150.0,
+              width: 70.0,
               child: ElevatedButton(
                 onPressed: () async {
                   var res = await Navigator.push(
@@ -61,15 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     }
                   });
                 },
-                child: const Row(
-                  children: [
-                    Icon(Icons.scanner),
-                    SizedBox(
-                      width: 8.0,
-                    ),
-                    Text('Clicar aqui'),
-                  ],
-                ),
+                child: const Icon(Icons.qr_code_scanner),
               ),
             ),
           ],
