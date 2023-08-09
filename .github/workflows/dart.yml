@@ -1,31 +1,19 @@
-name: Dart CI
+name: Dart
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
-    branches:
-      - main
+    branches: [main]
+  push:
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: dart-lang/setup-dart@v1
 
-      - name: Set up Dart SDK
-        uses: dart-lang/setup-dart@v1
-        with:
-          dart-version: '>=3.0.3 <4.0.0' # Specify the Dart SDK version
-
-      - name: Install Dart dependencies
-        run: dart pub get
-
-      - name: Analyze Dart source
-        run: dart analyze
-
-      - name: Run Dart tests
-        run: dart test
+      - run: dart pub get
+      - run: dart format --output=none --set-exit-if-changed .
+      - run: dart analyze
+      - run: dart test
