@@ -6,22 +6,22 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
 
 ## Getting Started
 
-  ### Execute o seguinte comando para obter as dependências:
-     1. **Primeiro passo:** 
-      ```
-        flutter pub get && dart pub get
-      ```
-     2. **Segundo passo:** 
-      ```
-        flutter run
-      ```
+## Execute o seguinte comando para obter as dependências:
+#### 1. **Primeiro passo:** 
+  ```
+  flutter pub get && dart pub get
+  ```
+#### 2. **Segundo passo:** 
+  ```
+  flutter run
+  ```
+#### Environment
+  ```
+  environment:
+    sdk: '>=3.0.3 <4.0.0'
+  ```
 <table>
- <tr>
-  <td>
-    <div>
-   
-    </div>
-    </td>
+ <tr> 
    <td>
      <div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;"> 
     <div style="text-align: right;">
