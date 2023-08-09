@@ -22,7 +22,7 @@ jobs:
           flutter-version: 'latest' # Use the latest version of Flutter
 
       - name: Set up Dart SDK
-        run: echo "sdk: '>=2.18.6 <3.0.0'" > pubspec.yaml # Set the Dart SDK version constraint
+        run: echo "sdk: '>=3.0.3 <4.0.0'" > pubspec.yaml # Set the Dart SDK version constraint
 
       - name: Install Flutter dependencies
         run: flutter pub get
