@@ -4,14 +4,15 @@ A new Flutter project.
 
 ## Getting Started
 
-<div style="display: flex; align-items: center;">
-    <div style="flex: 1;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center;">
+    <div>
         Seu texto aqui. Pode ser um parágrafo ou qualquer conteúdo que você desejar.
     </div>
-    <div style="flex: 1; text-align: right;">
+    <div style="text-align: right;">
         <img src="templant/Screenshot_1691542766.png" alt="Texto alternativo da imagem">
     </div>
 </div>
+
 
 
 This project is a starting point for a Flutter application.
