@@ -6,11 +6,7 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
 
 ## Getting Started
 
-<table>
- <tr>
-  <td>
-    <div>
-     ### Execute o seguinte comando para obter as dependências:
+  ### Execute o seguinte comando para obter as dependências:
      1. **Primeiro passo:** 
       ```
         flutter pub get && dart pub get
@@ -19,6 +15,11 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
       ```
         flutter run
       ```
+<table>
+ <tr>
+  <td>
+    <div>
+   
     </div>
     </td>
    <td>
