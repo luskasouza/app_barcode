@@ -3,16 +3,23 @@
 A new Flutter project.
 
 ## Getting Started
-
- <div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;">
+<table>
+ <tr>
+  <td>
     <div>
         Seu texto aqui. Pode ser um parágrafo ou qualquer conteúdo que você desejar.
     </div>
+   <td>
+     <div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;"> 
     <div style="text-align: right;">
         <img src="templant/Screenshot_1691542766.png" alt="Texto alternativo da imagem" width="250" height="500">
     </div>
 </div>
+   </td>
+  </td>
+ </tr>
 
+</table>
 
 
 This project is a starting point for a Flutter application.
