@@ -10,7 +10,7 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
  <tr>
   <td>
     <div>
-        Seu texto aqui. Pode ser um parágrafo ou qualquer conteúdo que você desejar.
+       ...
     </div>
    <td>
      <div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;"> 
