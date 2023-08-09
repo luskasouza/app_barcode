@@ -19,13 +19,13 @@ jobs:
       - name: Set up Dart SDK
         uses: dart-lang/setup-dart@v1
         with:
-          dart-version: '>=3.0.3 <4.0.0' # Use the desired Dart SDK version
+          dart-version: '>=3.0.3 <4.0.0' # Specify the Dart SDK version
 
-      - name: Install dependencies
+      - name: Install Dart dependencies
         run: dart pub get
 
-      - name: Analyze project source
+      - name: Analyze Dart source
         run: dart analyze
 
-      - name: Run tests
+      - name: Run Dart tests
         run: dart test
