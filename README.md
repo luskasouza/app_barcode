@@ -1,6 +1,8 @@
-# app-barcode
+#  Barcode
 
-Desenvolver projetos práticos como este é uma ótima maneira de consolidar o conhecimento e aprender novas habilidades, além de ser uma maneira divertida e prática de estudar programação em Flutter.
+Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma Base de Dados Local, é uma abordagem altamente benéfica para consolidar o conhecimento e aprimorar suas habilidades de programação em Flutter. Além disso, é uma maneira envolvente e divertida de aplicar o que você aprendeu em um contexto real. Aqui estão alguns detalhes adicionais sobre essa abordagem
+
+### Portfólio Pessoal
 
 ## Getting Started
 
