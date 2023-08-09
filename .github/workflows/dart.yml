@@ -18,7 +18,7 @@ jobs:
           dart-version: '3.0.3' # Specify the desired Dart SDK version
 
       - name: Install dependencies
-        run: dart pub get
+        run: flutter pub get && dart pub get
 
       # Uncomment this step to verify the use of 'dart format' on each commit.
       # - name: Verify formatting
