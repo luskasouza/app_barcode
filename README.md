@@ -1,8 +1,9 @@
 # app-barcode
 
-A new Flutter project.
+Desenvolver projetos práticos como este é uma ótima maneira de consolidar o conhecimento e aprender novas habilidades, além de ser uma maneira divertida e prática de estudar programação em Flutter.
 
 ## Getting Started
+
 <table>
  <tr>
   <td>
