@@ -9,7 +9,7 @@ A new Flutter project.
         Seu texto aqui. Pode ser um parágrafo ou qualquer conteúdo que você desejar.
     </div>
     <div style="text-align: right;">
-        <img src="templant/Screenshot_1691542766.png" alt="Texto alternativo da imagem" width="250" height="500">
+        <img src="templant/Screenshot_1691542766.png" alt="Texto alternativo da imagem" width="350" height="500">
     </div>
 </div>
 
