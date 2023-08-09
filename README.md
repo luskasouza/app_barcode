@@ -3,16 +3,15 @@
 A new Flutter project.
 
 ## Getting Started
-<div class="container">
-    <div class="row align-items-center">
-        <div class="col-md-8">
-            <p>Seu texto aqui. Pode ser um parágrafo ou qualquer conteúdo que você desejar.</p>
-        </div>
-        <div class="col-md-4 text-right">
-            <img src="templant/Screenshot_1691542766.png" alt="Texto alternativo da imagem" width="140" height="140">
-        </div>
+<div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;">
+    <div>
+        Seu texto aqui. Pode ser um parágrafo ou qualquer conteúdo que você desejar.
+    </div>
+    <div style="text-align: right;">
+        <img src="templant/Screenshot_1691542766.png" alt="Texto alternativo da imagem" width="140" height="140">
     </div>
 </div>
+
 
 </body>
 </html>
