@@ -10,7 +10,9 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
  <tr>
   <td>
     <div>
-       ...
+       ``
+       flutter pub get && dart pub get
+       ´´
     </div>
    <td>
      <div style="display: grid; grid-template-columns: 1fr 140px; gap: 20px; align-items: center;"> 
