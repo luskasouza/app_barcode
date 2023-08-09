@@ -10,7 +10,7 @@ Desenvolver projetos práticos, como o projeto de Consolidação de Dados em uma
  <tr>
   <td>
     <div>
-     Execute o seguinte comando para obter as dependências:
+     ### Execute o seguinte comando para obter as dependências:
      1. **Primeiro passo:** 
       ```
         flutter pub get && dart pub get
