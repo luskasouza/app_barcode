@@ -1,4 +1,4 @@
-name: Flutter CI
+name: Dart CI
 
 on:
   push:
@@ -16,19 +16,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: 'latest' # Use the latest version of Flutter
-
       - name: Set up Dart SDK
-        run: echo "environment:\n  sdk: '>=3.0.3 <4.0.0'" > pubspec.yaml # Set the Dart SDK version constraint
+        uses: dart-lang/setup-dart@v1
+        with:
+          dart-version: '>=3.0.3 <4.0.0' # Use the desired Dart SDK version
 
-      - name: Install Flutter dependencies
-        run: flutter pub get
+      - name: Install dependencies
+        run: dart pub get
 
       - name: Analyze project source
-        run: flutter analyze
+        run: dart analyze
 
       - name: Run tests
-        run: flutter test
+        run: dart test
