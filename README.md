@@ -1,4 +1,4 @@
-# app_barcode
+# app-barcode
 
 A new Flutter project.
 
